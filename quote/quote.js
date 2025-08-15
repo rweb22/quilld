@@ -4,7 +4,7 @@
  * Internal: QuoteValidator, QuoteBlot
  */
 
-//import Quill from 'quill';
+import Quill from 'quill';
 const BlockEmbed = Quill.import('blots/block/embed');
 
 /**
@@ -586,10 +586,10 @@ class QuoteManager {
 }
 
 // EXPORT: Only QuoteManager is publicly accessible
-//export default QuoteManager;
+export default QuoteManager;
 
 // For backward compatibility, also export as named export
-//export { QuoteManager };
+export { QuoteManager };
 
 // Global access for browser environments - only QuoteManager
 if (typeof window !== 'undefined') {
