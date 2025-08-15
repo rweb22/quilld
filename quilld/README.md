@@ -5,10 +5,10 @@
 <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 
 <!-- QuillD System -->
-<link href="./quilld.css" rel="stylesheet">
-<link href="./quote.css" rel="stylesheet">
-<script src="./quote.js"></script>
-<script src="./quilld.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quilld/quilld.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quote/quote.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quote/quote.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quilld/quilld.js"></script>
 ```
 
 2. Create an Editor
