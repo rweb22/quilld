@@ -22,28 +22,28 @@ A powerful aggregator and extension manager for Quill.js that simplifies the cre
 <link href="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.bubble.min.css" rel="stylesheet">
 
 <!-- QuillM CSS -->
-<link href="path/to/quillm.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quillm/quillm.css" rel="stylesheet">
 
 <!-- Your extension CSS files -->
-<link href="path/to/quote.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quote/quote.css" rel="stylesheet">
 
 <!-- Quill JS (required) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.min.js"></script>
 
 <!-- Your extension JS files -->
-<script src="path/to/quote.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quote/quote.js"></script>
 
 <!-- QuillM JS -->
-<script src="path/to/quillm.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quillm/quillm.js"></script>
 ```
 
 ### NPM/Module Installation
 
 ```javascript
 // If using modules
-import { QuillM, quillM } from './quillm.js';
+import { QuillM, quillM } from 'https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quillm/quillm.js';
 // or
-const { QuillM, quillM } = require('./quillm.js');
+const { QuillM, quillM } = require('https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quillm/quillm.js');
 ```
 
 ## 🏁 Quick Start
