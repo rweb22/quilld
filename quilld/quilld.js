@@ -2,6 +2,8 @@
  * QuillD - Quill Direct
  * Single comprehensive editor with all essential features
  */
+import Quill from 'https://cdn.quilljs.com/1.3.6/quill.min.js';
+import { QuoteManager } from 'https://cdn.jsdelivr.net/gh/rweb22/quilld@main/quote/quote.js';
 
 class QuillD {
   constructor() {
