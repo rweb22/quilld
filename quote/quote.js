@@ -4,7 +4,7 @@
  * Internal: QuoteValidator, QuoteBlot
  */
 
-import Quill from 'quill';
+import Quill from 'https://cdn.quilljs.com/1.3.6/quill.min.js';
 const BlockEmbed = Quill.import('blots/block/embed');
 
 /**
